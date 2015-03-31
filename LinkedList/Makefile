@@ -2,14 +2,14 @@ CC=g++
 DEBUG = -g
 CFLAGS= -Wall -c 
 LFLAGS = -Wall $(DEBUG)
-OBJ= ll.cpp
-EXE= ll
+OBJ= classll.cpp
+EXE= classll
 
 all:
 	$(CC) -o $(EXE) $(OBJ) 
 
 check:
-	valgrind --leak-check=yes ./ll
+	valgrind --leak-check=yes ./$(EXE)
 
 run:
-	./ll
+	./$(EXE)
