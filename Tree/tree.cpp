@@ -126,8 +126,9 @@ void tree::treeInsert(int val){
     }
 }
 
+//TODO: Finish Delete
 void tree::treeDelete(int val){
-
+    
 }
 
 int main(){
