@@ -248,7 +248,6 @@ int main(){
     */
 
     tree T(5);
-    T.treeInsert(4);
     T.treeDelete(5);
     T.treePrint(T.getRoot());
     return 0;
