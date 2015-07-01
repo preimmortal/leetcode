@@ -1,7 +1,7 @@
 CC=g++
 DEBUG = -g
 CFLAGS= -Wall -c 
-LFLAGS = -Wall $(DEBUG)
+LFLAGS = -Wall $(DEBUG) -g
 OBJ= tree.cpp
 EXE= tree
 
